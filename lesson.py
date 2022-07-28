@@ -13,13 +13,14 @@ from unittest import result
 
 
 
-x = str("(7<6) and (6<8)")
+x = str("(5<6) and (6<8)")
 
 y = str("(6>9) and (7>8)")
 
 if x == str("(5<6) and (6<8)"):
-
- print(x)
+ z=["Маша", "Даша", "Саша"]
+ z.sort()
+ print(x,z)
 
 else:
       y= str("(6>9) and (7>8)")
