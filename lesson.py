@@ -1,11 +1,11 @@
-# Упражнение 1
+# Упражвевие 1
 # x=5
 # y=6
 # result=x<y
 # print(result)
 
 
-# Упражнение 2
+# Упражвевие 2
 
 #x = str("(3<6) and (6<8)")
 #x=str(x)
@@ -20,18 +20,18 @@
 
 #print(y)
 
-#### Упражнение 3
+#### Упражвевие 3
 
-#Weather = input('Какая сегодня погода ? (дождь/снег/солнце) ')
+#Weather = input('Какая сегодвя погода ? (дождь/свег/солвце) ')
 #if Weather == 'дождь':
-#print('не забудь зонтик')
+#print('ве забудь зовтик')
 
-#elif Weather == 'снег':
-#print('Не забудь варежки')
+#elif Weather == 'свег':
+#print('ве забудь варежки')
 #else:
-#print('Не забудь солнечные очки')
+#print('ве забудь солвечвые очки')
 
-# Упражнение 4  на  возврат  номера и значения из списка
+# Упражвевие 4  ва  возврат  вомера и звачевия из списка
 
 #Rockets_player=['Маша', 'Даша', 'Миша' ]
 
@@ -40,22 +40,35 @@
 #print(Rockets_player.index('Маша'))
 
 ##index=0
-##hippos=5
-##while index<hippos:
+##product=5
+##while index<product:
 #index=index + 1
-###print (hippos)
+###print (product)
 
 
 
 
 
-hippos = 0
-print('Бегемотов в пирамиде:'+str(hippos))
-input('добавить бегемота (д/н)')
-answer='д'
+product = 0
+print('Продуктов в корзине ' +str(product))
+answer=input('добавить  (д/н) ')
+
+if answer=='д':
+    product=product+1
+    print('Фруктов в корзине ' +str(product))
+    answer=input('добавить еще фруктов/убрать продукты/выйти из корзины (д/у/в)')
 while answer=='д':
-    hippos=hippos+1
-    print('Бегемотов в пирамиде:'+str(hippos))
-    answer=input('добавить еще бегемотов(д/н)')
+    product=product+1
+    print('Фруктов в корзине ' +str(product))
+    answer=input('добавить еще фруктов/убрать продукты/выйти из корзины (д/у/в)')
+if answer=='у':
+     product=product-1
+     print('Продуктов в корзине ' +str(product))
+     answer=input('добавить еще фруктов/убрать продукты/выйти из корзины (д/у/в)')
+     
+else:
+    print('Продуктов в корзине ' +str(product))
+
+
 
    
