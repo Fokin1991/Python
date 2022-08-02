@@ -47,27 +47,35 @@
 
 
 
+#Упражнение  магазин
 
+#product_price=0
+#product = 0
+#sum=product_price*product
+#print('Продуктов в корзине ' +str(product))
+#answer=input('добавить  (д/н) ')
 
-product = 0
-print('Продуктов в корзине ' +str(product))
-answer=input('добавить  (д/н) ')
+#if answer=='д':
+    #product=product+1
+    #sum=product_price*product
+    #print('Фруктов в корзине ' +str(product))
+    #answer=input('добавить еще фруктов/убрать продукты/выйти из корзины (д/у/в)')
+#while answer=='д':
+    #product=product+1
 
-if answer=='д':
-    product=product+1
-    print('Фруктов в корзине ' +str(product))
-    answer=input('добавить еще фруктов/убрать продукты/выйти из корзины (д/у/в)')
-while answer=='д':
-    product=product+1
-    print('Фруктов в корзине ' +str(product))
-    answer=input('добавить еще фруктов/убрать продукты/выйти из корзины (д/у/в)')
-if answer=='у':
-     product=product-1
-     print('Продуктов в корзине ' +str(product))
-     answer=input('добавить еще фруктов/убрать продукты/выйти из корзины (д/у/в)')
+    #print('Фруктов в корзине ' +str(product))
+    #answer=input('добавить еще фруктов/убрать продукты/выйти из корзины (д/у/в)')
+#if answer=='у':
+     #product=product-1
+     #print('Продуктов в корзине ' +str(product))
+     #answer=input('добавить еще фруктов/убрать продукты/выйти из корзины (д/у/в)')
      
-else:
-    print('Продуктов в корзине ' +str(product))
+#else:
+    #print('Продуктов в корзине ' +str(product))
+
+
+
+
 
 
 
