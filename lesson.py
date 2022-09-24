@@ -7,7 +7,16 @@ import os
  
 os.system("cls")
  
- 
-print("Как тебя зовут?")
+print("Представься")
+print(" ")
+b=input(" ")
+print(" ")
+print("Как у тебя дела?")
+print(" ")
 a=input(" ")
-print("Привет", a)
+print(" ")
+print("Сколько тебе лет ?")
+print(" ")
+age=input(" ")
+print(" ")
+print("Здраствуй мой дорогой друг",b + " Я рад, что  твои дела  идут ",a + " И тебе  уже", age +" лет" )
